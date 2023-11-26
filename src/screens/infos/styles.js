@@ -1,9 +1,9 @@
 import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
-    imageLogin: {
+    imageInfo: {
         flex: 1,
         alignItems: "center",
+        padding:20
       },
-});
-
+})

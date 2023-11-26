@@ -12,9 +12,12 @@ const route = useRoute()
     handleRegister = () => {
         navigation.navigate('registrar')
     }
-    handleMenu =() => {
-        navigation.navigate('main')
+
+    handleHome = () => {
+        navigation.navigate('princ')
     }
+ 
+ 
 
     return (
             <ImageBackground style={styles.imageLogin}
@@ -26,7 +29,7 @@ const route = useRoute()
                 <Input text="Senha"/>
 
                 <View style={styles.boxButton}>
-                    <TouchableOpacity onPress={handleMenu} style={styles.button}>
+                    <TouchableOpacity onPress={handleHome} style={styles.button}>
                         <Text style={styles.textButton}>ENTRAR</Text>
                     </TouchableOpacity>
                 </View>

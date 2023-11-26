@@ -1,11 +1,10 @@
 import React from 'react';
-import BoxTrilha from './src/components/boxTrilha';
-import Menu from './src/screens/menu';
-import Login from './src/screens/login';
+import { Routes } from './src/Routes';
+import Button from './src/components/flatList';
 
 
 export default function App() {
   return (
-   <Login></Login>
+  <Routes></Routes>
   )
 }

@@ -10,5 +10,9 @@ export const styles = StyleSheet.create({
         justifyContent:"space-around",
         gap:10,
         marginTop:200
+      },
+      iconBack:{
+        padding:20,
+        marginEnd:300
       }
 })

@@ -7,7 +7,7 @@ export const styles = StyleSheet.create({
     backgroundColor: "rgba(154, 178, 169, 0.5)",
     borderRadius: 15,
     gap: 20,
-    marginTop:25
+    marginTop:20,
   },
   local: {
     fontSize: 20,
@@ -16,9 +16,10 @@ export const styles = StyleSheet.create({
     color: "#fff",
   },
   descricao: {
-    fontSize: 14,
+    fontSize: 16,
     color: "#fff",
     marginTop: 5,
+    paddingHorizontal:10
   },
   viewStars: {
     flexDirection: "row",
